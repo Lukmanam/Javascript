@@ -3,5 +3,5 @@ const person={
     place:"mji",
 
 }
-let a= person.nme ??"not available"
+let a= person.name ??"not available"
 console.log(a);
