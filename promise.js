@@ -1,26 +1,28 @@
-const API = () => {
-    return new Promise((resolve, reject) => {
+// const API = () => {
+//     return new Promise((resolve, reject) => {
 
-        setTimeout(() => {
-            const data = "documents here"
-            const nodata = "failed"
-            if (data) {
-                resolve(data)
-            }
-            else {
-                reject(nodata)
-            }
-        }, 2000)
-    })
-}
+       
+//             const data = "documents here"
+//             const nodata = "failed"
+//             if (data) {
+//                 resolve(data)
+//             }
+//             else {
+//                 reject(nodata)
+//             }
+       
+//     })
+// }
 
-async function profile() {
-    try {
-        const profiledata = await API()
-        console.log(profiledata);
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function profile() {
+//     try {
+//         const profiledata = await API()
+//         console.log(profiledata);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
+
+// profile()
 

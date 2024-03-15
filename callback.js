@@ -27,11 +27,19 @@
 // }
 
 // arrow(1,5,display)
-
 function sum(a,b,mult){
 
+let sum=a+b;
+console.log("sum is",sum);;
+mult(a,b)
 }
 
-function mult(a,b){
-    
+function mult(a,b)
+{
+let result=a*b;
+console.log("multiple is",result);
 }
+
+let a=10;
+let b=20;
+sum(a,b,mult)
