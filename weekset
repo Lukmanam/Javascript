@@ -1,0 +1,12 @@
+// const set= new WeakSet();
+
+// set.add(person={
+//     name:"lukman",
+//     place:"manjeri"
+
+// });
+// console.log(set.person)
+
+// let a=void 10;
+// console.log(a)
+// console.log( null<=0);

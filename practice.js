@@ -139,3 +139,63 @@
 
 
 // console.log(sum(12)(22)(32)(34));
+// const x=10;
+// const y=20
+// console.log(eval("x+y"))
+
+// let a=["lukman","sahabas","adnan","shageeq"];
+// const x= a.includes("lukman");
+// console.log(x)
+// let a=[1,2,3,4,5,6,7,8,9,10]
+// let largest=a.reduce((large,curr)=>
+// {
+    
+//     if(curr>largeitem.largest)
+//     {
+//         largeitem.secondLargest=largeitem.largest
+//         largeitem.largest=curr;       
+// }
+// if(curr<largeitem.largest && curr>largeitem.secondLargest)
+// {
+//     largeitem.secondLargest=curr
+// }
+// return largeitem
+
+// },largeitem={
+//     largest:a[0],
+//     secondLargest:a[1]
+// });
+
+
+// console.log(largest)
+// const str="lukman";
+// const name=str.toUpperCase();
+// console.log(name);
+// let person={
+//     name:"lukman",
+//     place:"manejri",
+    
+// }
+// let person2={
+//     name:"shafeeq",
+//     place:"calicut"
+// }
+
+// function userData(country){
+     
+//         console.log(`he is ${this.name} come from ${this.place}`);
+//         console.log(country);
+    
+// }
+const account={
+    username:function(usersname){
+        console.log("account name is",this.name,"username is ",usersname);
+    }
+}
+const Student={
+    name:"fayis"
+}
+account.username.call(Student,"lukmaaaaaaaaaaaaaaaaaan")
+account.username.apply(Student,["lukmanAthimannil"])
+// const final=account.username.bind(Student,"fayis kuttan")
+// final()
