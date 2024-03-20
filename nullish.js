@@ -1,7 +1,7 @@
 const person={
-    name:"lukman",
+    name:null,
     place:"mji",
 
 }
-let a= person.name ??"not available"
+let a= person.name ?? 100
 console.log(a);
