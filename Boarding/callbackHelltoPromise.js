@@ -13,5 +13,5 @@ function isPower(n){
 
 console.log(
 
-    isPower(81)
+    isPower(80)
 );
